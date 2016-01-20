@@ -8,9 +8,11 @@ export default class Home extends React.Component {
       <head>
         <title>Frode Bjerke</title>
         <meta name="viewport" content="width=device-width" />
+        <link href="assets/styles.css" rel="stylesheet" />
       </head>
-      <body style={{ margin: 0 }} >
+      <body>
         <section id="frodebjerke" />
+        <script src="assets/scripts.js" />
       </body>
     </html>
   }
@@ -18,6 +20,5 @@ export default class Home extends React.Component {
 }
 
 export function asStaticMarkup() {
-  console.log('hei', Home)
   return ReactDOMServer.renderToStaticMarkup(<Home />)
 }
