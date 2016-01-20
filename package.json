@@ -1,7 +1,7 @@
 {
-  "name": "frode-web",
+  "name": "boilerplate-express-react",
   "version": "1.0.0",
-  "description": "Frode Bjerkes homepage",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "concurrent 'nodemon .' 'npm run watch'",
