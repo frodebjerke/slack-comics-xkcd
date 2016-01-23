@@ -11,7 +11,6 @@ export default function newXkcdComic() {
                 channelName: process.env.SLACK_CHANNEL_NAME || '#comics'
             };
 
-            console.log(comic)
             return postMessage(config, comic);
         })
         .then(() => {

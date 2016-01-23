@@ -17,6 +17,7 @@ export default function postMessage(config, msg) {
 
         slack.send(payload, () => {
             console.log("Slack message sent for " + msg.title)
+            resolve();
         })
     });
 }
