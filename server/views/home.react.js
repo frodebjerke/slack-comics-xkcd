@@ -6,13 +6,14 @@ export default class Home extends React.Component {
   render() {
     return <html>
       <head>
-        <title>B O I L E R P L A T E</title>
+        <title>XKCD SLACK</title>
         <meta name="viewport" content="width=device-width" />
-        <link href="assets/styles.css" rel="stylesheet" />
       </head>
       <body>
-        <section id="frontend" />
-        <script src="assets/scripts.js" />
+        <article>
+          <h1>XKCD slack integration</h1>
+          <p>Share and enjoy!</p>
+        </article>
       </body>
     </html>
   }
